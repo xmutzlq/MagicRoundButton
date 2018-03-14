@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="bg_common">#f6f6f6</color>
+    
+    <color name="color_ccec6e55">#ccec6e55</color>
+	<color name="color_aaec6e55">#aaec6e55</color>
+	
+	<color name="color_FD644B">#FD644B</color>
+	<color name="color_55FD644B">#55FD644B</color>
+	<color name="half_apha_white">#AAffffff</color>
+    
+	<color name="color_aebdda">#aebdda</color>
+	<color name="color_ff593e">#ff593e</color>
+	<color name="color_fafafa">#fafafa</color>
+	<color name="color_e1e1e1">#e1e1e1</color>
+	<color name="color_aaaaaa">#aaaaaa</color>
+	<color name="color_333333">#333333</color>
+	<color name="color_666666">#666666</color>
+	<color name="color_999999">#999999</color>
+	
+	<color name="color_6293f9">#6293f9</color>
+	<color name="color_61abfd">#61abfd</color>
+	<color name="color_c6cbd7">#c6cbd7</color>
+	
+	<color name="color_6c94f2">#6c94f2</color>
+	
+	<color name="color_divide_line">#e1e1e1</color>
+	
+	<color name="psts_background_tab_pressed">#1AFFFFFF</color>
+    <color name="psts_background_tab_pressed_ripple">#AAFFFFFF</color>
+    
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.king.demo.widget.RoundButton
+        android:id="@+id/btn_first"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/comm_btn_height"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="ButtonOne"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/color_ffffff"
+        android:textSize="15sp"
+        app:btnCornerRadius="stadium"
+        app:btnPressedRatio="0.8"
+        app:btnSolidColor="@color/home_btn_bg" />
+
+    <com.king.demo.widget.RoundButton
+        android:id="@+id/btn_second"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/comm_btn_height"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="ButtonTwo"
+        android:textColor="@color/color_ffffff"
+        android:textSize="15sp"
+        app:btnCornerRadius="stadium"
+        app:btnPressedRatio="0.8"
+        app:btnSolidColor="@color/home_btn_bg" />
+    
+    <com.king.demo.widget.RoundButton
+        android:id="@+id/btn_thrid"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/comm_btn_height"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="ButtonThree"
+        android:textColor="@color/color_ffffff"
+        android:textSize="15sp"
+        app:btnCornerRadius="stadium"
+        app:btnPressedRatio="0.8"
+        app:btnSolidColor="@color/home_btn_bg" />
+    
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:max="100"  
+        android:progress="0" />
+    
+</LinearLayout>
